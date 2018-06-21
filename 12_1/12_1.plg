@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 12_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE875.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/12_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Documents\GitHub\cpp-primer-homework\12.0.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE875.tmp" 
+<h3>Output Window</h3>
+Compiling...
+12.0.cpp
+d:\documents\github\cpp-primer-homework\12.0.cpp(4) : error C2653: 'StringBad' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\12.0.cpp(5) : error C2653: 'StringBad' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\12.0.cpp(7) : error C2065: 'len' : undeclared identifier
+d:\documents\github\cpp-primer-homework\12.0.cpp(7) : error C2039: 'strlen' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\12.0.cpp(8) : error C2065: 'str' : undeclared identifier
+d:\documents\github\cpp-primer-homework\12.0.cpp(8) : error C2440: '=' : cannot convert from 'char *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+d:\documents\github\cpp-primer-homework\12.0.cpp(9) : error C2039: 'strcpy' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\12.0.cpp(10) : error C2065: 'num_strings' : undeclared identifier
+d:\documents\github\cpp-primer-homework\12.0.cpp(11) : error C2017: illegal escape sequence
+d:\documents\github\cpp-primer-homework\12.0.cpp(12) : warning C4508: 'StringBad' : function should return a value; 'void' return type assumed
+d:\documents\github\cpp-primer-homework\12.0.cpp(14) : error C2653: 'StringBad' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\12.0.cpp(17) : error C2440: '=' : cannot convert from 'char *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+d:\documents\github\cpp-primer-homework\12.0.cpp(18) : error C2039: 'strcpy' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\12.0.cpp(21) : warning C4508: 'StringBad' : function should return a value; 'void' return type assumed
+d:\documents\github\cpp-primer-homework\12.0.cpp(23) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+12.0.obj - 13 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

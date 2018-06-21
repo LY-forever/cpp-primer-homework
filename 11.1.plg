@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 11.1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/11.1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents\GitHub\cpp-primer-homework\11.1.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/11.1.pdb" /debug /machine:I386 /out:"Debug/11.1.exe" /pdbtype:sept 
+".\Debug\11.1.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D2.tmp"
+<h3>Output Window</h3>
+Compiling...
+11.1.cpp
+d:\documents\github\cpp-primer-homework\11.1.cpp(7) : error C2039: 'sqrt' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\11.1.cpp(7) : error C2873: 'sqrt' : symbol cannot be used in a using-declaration
+d:\documents\github\cpp-primer-homework\11.1.cpp(8) : error C2039: 'sin' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\11.1.cpp(8) : error C2873: 'sin' : symbol cannot be used in a using-declaration
+d:\documents\github\cpp-primer-homework\11.1.cpp(9) : error C2039: 'cos' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\11.1.cpp(9) : error C2873: 'cos' : symbol cannot be used in a using-declaration
+d:\documents\github\cpp-primer-homework\11.1.cpp(10) : error C2039: 'atan' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\11.1.cpp(10) : error C2873: 'atan' : symbol cannot be used in a using-declaration
+d:\documents\github\cpp-primer-homework\11.1.cpp(11) : error C2039: 'atan2' : is not a member of 'std'
+d:\documents\github\cpp-primer-homework\11.1.cpp(11) : error C2873: 'atan2' : symbol cannot be used in a using-declaration
+d:\documents\github\cpp-primer-homework\11.1.cpp(18) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(20) : error C2065: 'mag' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(20) : error C2065: 'aqrt' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(20) : error C2065: 'x' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(20) : error C2065: 'y' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(22) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(25) : error C2065: 'ang' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(30) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(35) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(39) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(42) : error C2065: 'mode' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(42) : error C2065: 'RECT' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(43) : warning C4508: 'Vector' : function should return a value; 'void' return type assumed
+d:\documents\github\cpp-primer-homework\11.1.cpp(45) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(45) : error C2061: syntax error : identifier 'Mode'
+d:\documents\github\cpp-primer-homework\11.1.cpp(47) : error C2065: 'form' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(55) : error C2065: 'POL' : undeclared identifier
+d:\documents\github\cpp-primer-homework\11.1.cpp(69) : warning C4508: 'Vector' : function should return a value; 'void' return type assumed
+d:\documents\github\cpp-primer-homework\11.1.cpp(71) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(71) : error C2061: syntax error : identifier 'Mode'
+d:\documents\github\cpp-primer-homework\11.1.cpp(98) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(99) : error C2084: function 'int __cdecl VECTOR::Vector(void)' already has a body
+d:\documents\github\cpp-primer-homework\11.1.cpp(100) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(104) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(109) : error C2653: 'Vector' : is not a class or namespace name
+d:\documents\github\cpp-primer-homework\11.1.cpp(109) : error C2146: syntax error : missing ';' before identifier '+'
+d:\documents\github\cpp-primer-homework\11.1.cpp(109) : error C2501: 'Vector' : missing storage-class or type specifiers
+d:\documents\github\cpp-primer-homework\11.1.cpp(109) : error C2373: 'Vector' : redefinition; different type modifiers
+d:\documents\github\cpp-primer-homework\11.1.cpp(109) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+11.1.exe - 37 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
